@@ -81,6 +81,7 @@
     <object>objects\obj_Fade</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_TitleScreen</room>
     <room>rooms\Test</room>
     <room>rooms\Bedroom</room>
     <room>rooms\room3</room>
