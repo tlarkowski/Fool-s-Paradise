@@ -4,10 +4,88 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sounds name="sound">
+    <sound>sound\snd_PaulText</sound>
+    <sound>sound\snd_DoorOpen</sound>
+    <sound>sound\snd_DoorClose</sound>
+  </sounds>
+  <sprites name="sprites">
+    <sprites name="characters">
+      <sprites name="player">
+        <sprite>sprites\spr_playerDW</sprite>
+        <sprite>sprites\spr_playerLW</sprite>
+        <sprite>sprites\spr_playerUW</sprite>
+        <sprite>sprites\spr_playerRW</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="background">
+      <sprites name="Hallway">
+        <sprite>sprites\spr_HallWallL</sprite>
+        <sprite>sprites\spr_HallFloor</sprite>
+        <sprite>sprites\spr_HallDoor</sprite>
+      </sprites>
+      <sprites name="Bedroom">
+        <sprite>sprites\spr_BedroomWall</sprite>
+        <sprite>sprites\spr_BedroomWalls</sprite>
+        <sprite>sprites\spr_BedroomBed</sprite>
+        <sprite>sprites\spr_bedroomChest</sprite>
+        <sprite>sprites\spr_BedroomCarpet</sprite>
+        <sprite>sprites\spr_BedroomBookshelf</sprite>
+        <sprite>sprites\spr_PictureFrame</sprite>
+      </sprites>
+      <sprite>sprites\spr_CoverForFade</sprite>
+      <sprites name="Clocktower">
+        <sprite>sprites\spr_ClocktowerPillar</sprite>
+      </sprites>
+    </sprites>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_text.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_floor</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_wall</object>
+    <objects name="floors">
+      <object>objects\obj_HallFloo</object>
+      <object>objects\obj_BedroomRug</object>
+    </objects>
+    <objects name="walls">
+      <object>objects\obj_HallWall</object>
+      <objects name="Bedroom">
+        <object>objects\obj_BedroomWalls</object>
+        <object>objects\obj_BedroomBed</object>
+        <object>objects\obj_BedroomBookshelf</object>
+        <object>objects\obj_BedroomChest</object>
+        <object>objects\obj_BedroomPicture</object>
+      </objects>
+      <objects name="Clocktower">
+        <object>objects\obj_ClocktowerPillar</object>
+      </objects>
+    </objects>
+    <object>objects\obj_door</object>
+    <objects name="doors">
+      <object>objects\obj_HallDoor</object>
+      <object>objects\obj_BedroomDoor1</object>
+    </objects>
+    <object>objects\obj_text</object>
+    <objects name="room intro texts">
+      <object>objects\obj_HallText</object>
+      <object>objects\obj_HallTestText</object>
+    </objects>
+    <object>objects\obj_Fade</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Test</room>
+    <room>rooms\Bedroom</room>
+    <room>rooms\room3</room>
+    <room>rooms\rm_Lv1Hub</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
