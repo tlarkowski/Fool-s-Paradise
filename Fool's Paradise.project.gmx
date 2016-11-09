@@ -4,10 +4,45 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sounds name="sound">
+    <sound>sound\snd_sprinkle</sound>
+  </sounds>
+  <sprites name="sprites">
+    <sprite>sprites\spr_Logo</sprite>
+    <sprite>sprites\spr_Arrow</sprite>
+    <sprite>sprites\spr_BlackTile</sprite>
+    <sprite>sprites\spr_MC_down</sprite>
+    <sprite>sprites\spr_MC_up</sprite>
+    <sprite>sprites\spr_MC_left</sprite>
+    <sprite>sprites\spr_MC_right</sprite>
+    <sprite>sprites\spr_Hallway_Floor</sprite>
+    <sprite>sprites\spr_WoodHall</sprite>
+    <sprite>sprites\spr_WoodHall_Door</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_filler</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_Menu.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_FrontMenu</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_Logo</object>
+    <object>objects\obj_Menu</object>
+    <object>objects\obj_MC</object>
+    <object>objects\obj_Door1</object>
+    <object>objects\obj_Wall1</object>
+    <object>objects\obj_Hallway_Floor</object>
+    <object>objects\obj_BlackTile</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_TitleScreen</room>
+    <room>rooms\rm_Hallway</room>
+    <room>rooms\rm_Hub</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
