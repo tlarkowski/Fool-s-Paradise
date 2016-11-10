@@ -5,11 +5,14 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
+    <sound>sound\snd_sprinkle</sound>
     <sound>sound\snd_PaulText</sound>
     <sound>sound\snd_DoorOpen</sound>
     <sound>sound\snd_DoorClose</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\spr_Logo</sprite>
+    <sprite>sprites\spr_Arrow</sprite>
     <sprites name="characters">
       <sprites name="player">
         <sprite>sprites\spr_playerDW</sprite>
@@ -42,12 +45,16 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\scr_Menu.gml</script>
     <script>scripts\scr_text.gml</script>
   </scripts>
   <fonts name="fonts">
+    <font>fonts\fnt_FrontMenu</font>
     <font>fonts\fnt</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_Logo</object>
+    <object>objects\obj_Menu</object>
     <object>objects\obj_floor</object>
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
@@ -82,10 +89,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_TitleScreen</room>
-    <room>rooms\Test</room>
-    <room>rooms\Bedroom</room>
-    <room>rooms\room3</room>
-    <room>rooms\rm_Lv1Hub</room>
+    <room>rooms\rm_Hallway</room>
+    <room>rooms\rm_Hub</room>
+    <room>rooms\rm_Hub1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
