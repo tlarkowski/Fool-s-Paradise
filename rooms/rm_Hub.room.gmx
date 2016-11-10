@@ -84,7 +84,7 @@
     <instance objName="obj_HallFloo" x="512" y="288" name="inst_3ECBF85E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_BedroomBed" x="416" y="176" name="inst_688998D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_BedroomChest" x="416" y="232" name="inst_5D618518" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_BedroomRug" x="448" y="224" name="inst_F1D1F5F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_BedroomRug" x="464" y="244" name="inst_F1D1F5F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_BedroomBookshelf" x="516" y="144" name="inst_4C5C084B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_BedroomPicture" x="472" y="144" name="inst_5A4B3B19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

@@ -56,7 +56,7 @@ textA[2] = "I just can't remember what#it was of...";
 
 
 
-if(keyboard_check(ord('E'))){
+if(keyboard_check_released(vk_space)){
 
 
     if(place_meeting(x,y + 32,obj_player)){
