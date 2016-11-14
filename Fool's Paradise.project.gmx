@@ -41,6 +41,9 @@
         <sprite>sprites\spr_ClocktowerPillar</sprite>
       </sprites>
     </sprites>
+    <sprites name="puzzleTest">
+      <sprite>sprites\spr_tablecloth</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -86,12 +89,19 @@
       <object>objects\obj_HallTestText</object>
     </objects>
     <object>objects\obj_Fade</object>
+    <objects name="puzzleTest">
+      <object>objects\obj_tablecloth</object>
+      <object>objects\obj_firstPuzzleOutline</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_TitleScreen</room>
     <room>rooms\rm_Hallway</room>
     <room>rooms\rm_Hub</room>
-    <room>rooms\rm_Hub1</room>
+    <rooms name="Tests &amp; Templates">
+      <room>rooms\rm_testPuzzle</room>
+      <room>rooms\rm_HubTemplate</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
