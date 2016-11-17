@@ -13,6 +13,10 @@
   <sprites name="sprites">
     <sprite>sprites\spr_Logo</sprite>
     <sprite>sprites\spr_Arrow</sprite>
+    <sprites name="inventory">
+      <sprite>sprites\spr_border</sprite>
+      <sprite>sprites\spr_tempItems</sprite>
+    </sprites>
     <sprites name="characters">
       <sprites name="player">
         <sprite>sprites\spr_playerDW</sprite>
@@ -43,6 +47,9 @@
     </sprites>
     <sprites name="puzzleTest">
       <sprite>sprites\spr_tablecloth</sprite>
+      <sprite>sprites\sprGearOutl</sprite>
+      <sprite>sprites\spr_rustGear1</sprite>
+      <sprite>sprites\spr_tester</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -58,13 +65,14 @@
   <objects name="objects">
     <object>objects\obj_Logo</object>
     <object>objects\obj_Menu</object>
-    <object>objects\obj_floor</object>
+    <object>objects\obj_inventory</object>
     <object>objects\obj_player</object>
-    <object>objects\obj_wall</object>
+    <object>objects\obj_floor</object>
     <objects name="floors">
       <object>objects\obj_HallFloo</object>
       <object>objects\obj_BedroomRug</object>
     </objects>
+    <object>objects\obj_wall</object>
     <objects name="walls">
       <object>objects\obj_HallWall</object>
       <objects name="Bedroom">
@@ -92,6 +100,8 @@
     <objects name="puzzleTest">
       <object>objects\obj_tablecloth</object>
       <object>objects\obj_firstPuzzleOutline</object>
+      <object>objects\obj_rustGear1</object>
+      <object>objects\obj_tester</object>
     </objects>
   </objects>
   <rooms name="rooms">
