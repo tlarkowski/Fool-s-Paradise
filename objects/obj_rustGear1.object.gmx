@@ -25,10 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>grab = false;
+            <string>// dragging booleans
+grab = false;
+finalPos = false;
 
+// position variables
 xx = 0;
 yy = 0;
+
+// script necessities x and y bounds for final position
+xFinal = 250;
+yFinal = 250;
 </string>
           </argument>
         </arguments>
@@ -110,12 +117,18 @@ depth = -2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>grab = true;
-depth = -10;
-
-// relative click position
-xx = x - mouse_x;
-yy = y - mouse_y;
+            <string>if (not finalPos) {
+  /*if ( (xFinal-32 &lt; self.x &lt; xFinal+32) and (yFinal-32 &lt; self.y &lt; yFinal+32) ) {
+    finalPos = true;
+  }
+  else {*/
+    grab = true;
+    depth = -10;
+    
+    xx = x - mouse_x;
+    yy = y - mouse_y;
+  //}
+}
 </string>
           </argument>
         </arguments>

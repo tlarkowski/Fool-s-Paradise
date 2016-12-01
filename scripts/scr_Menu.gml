@@ -6,7 +6,6 @@ switch (menuPos) {
     }
     case 1: {
         show_message("Yo, it looks like you don't have any save files yet. You should maybe get on that =p.");
-        room_goto(rm_testPuzzle);
         break;
     }
     case 2: {

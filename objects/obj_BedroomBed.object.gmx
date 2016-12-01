@@ -96,7 +96,7 @@ else if(place_meeting(x + 4,y,obj_player)){
             scr_text(textA[index], 0.5, 200, 600);
             index++
         }
-        
+                                                
     }
 }
 </string>

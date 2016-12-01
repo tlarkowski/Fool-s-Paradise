@@ -50,6 +50,7 @@
       <sprite>sprites\sprGearOutl</sprite>
       <sprite>sprites\spr_rustGear1</sprite>
       <sprite>sprites\spr_tester</sprite>
+      <sprite>sprites\spr_go</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -57,6 +58,8 @@
   <scripts name="scripts">
     <script>scripts\scr_Menu.gml</script>
     <script>scripts\scr_text.gml</script>
+    <script>scripts\scr_leftPressed.gml</script>
+    <script>scripts\scr_roomChange.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_FrontMenu</font>
@@ -102,12 +105,18 @@
       <object>objects\obj_firstPuzzleOutline</object>
       <object>objects\obj_rustGear1</object>
       <object>objects\obj_tester</object>
+      <object>objects\obj_go</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_TitleScreen</room>
     <room>rooms\rm_Hallway</room>
     <room>rooms\rm_Hub</room>
+    <room>rooms\rm_Denial</room>
+    <room>rooms\rm_Anger</room>
+    <room>rooms\rm_Bargaining</room>
+    <room>rooms\rm_Depression</room>
+    <room>rooms\rm_Acceptance</room>
     <rooms name="Tests &amp; Templates">
       <room>rooms\rm_testPuzzle</room>
       <room>rooms\rm_HubTemplate</room>
