@@ -26,7 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>if(place_meeting(x,y,obj_player)){
-    scr_roomChange();
+    if(room_next(room) != -1){
+        room += 1;
+    }
 }
 </string>
           </argument>
