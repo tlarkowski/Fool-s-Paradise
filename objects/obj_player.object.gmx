@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>-100</depth>
   <persistent>0</persistent>
-  <parentName>obj_door</parentName>
+  <parentName>self</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -50,9 +50,7 @@ yprev = y;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-
-Speed = 1;
+            <string>Speed = 2;
 image_speed = 0;
 MOVELEFT = keyboard_check(ord('A'));
 MOVERIGHT = keyboard_check(ord('D'));
@@ -65,12 +63,12 @@ if(MOVERIGHT - MOVELEFT != 0){
     if(MOVERIGHT == 1 and !place_meeting(x+ Speed, y, obj_wall) and place_meeting(x+ Speed + 22, y, obj_floor)){
         x += Speed;
         sprite_index = spr_playerRW;
-        image_speed = .1;
+        image_speed = .2;
     }
     else if(MOVELEFT == 1 and !place_meeting(x- Speed, y, obj_wall) and place_meeting(x- Speed - 22, y, obj_floor)){
         x -= Speed;
         sprite_index = spr_playerLW;
-        image_speed = .1;
+        image_speed = .2;
     }
     if(MOVELEFT == 1){
         sprite_index = spr_playerLW;
@@ -83,12 +81,12 @@ if(MOVEDOWN - MOVEUP != 0){
     if(MOVEDOWN == 1 and !place_meeting(x, y + Speed, obj_wall) and place_meeting(x, y + Speed + 7, obj_floor)){
         y += Speed;
         sprite_index = spr_playerDW;
-        image_speed = .1;
+        image_speed = .2;
     }
     else if(MOVEUP == 1 and !place_meeting(x, y - Speed, obj_wall) and place_meeting(x, y - Speed - 7, obj_floor)){
         y -= Speed;
         sprite_index = spr_playerUW;
-        image_speed = .1;
+        image_speed = .2;
     }
     
     if(MOVEDOWN == 1 and MOVERIGHT == 0 and MOVELEFT == 0){
@@ -110,9 +108,6 @@ if(xprev == x and yprev = y){
 xprev = x;
 yprev = y;
 global.orientation = sprite_index;
-
-
-
 </string>
           </argument>
         </arguments>

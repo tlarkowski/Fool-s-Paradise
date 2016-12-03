@@ -14,13 +14,21 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Logo</sprite>
-    <sprite>sprites\spr_Arrow</sprite>
+    <sprite>sprites\spr_MenuSelect</sprite>
     <sprite>sprites\spr_CoverForFade</sprite>
-    <sprites name="MC">
-      <sprite>sprites\spr_playerDW</sprite>
-      <sprite>sprites\spr_playerLW</sprite>
-      <sprite>sprites\spr_playerRW</sprite>
-      <sprite>sprites\spr_playerUW</sprite>
+    <sprites name="Char">
+      <sprites name="MC">
+        <sprite>sprites\spr_playerDW</sprite>
+        <sprite>sprites\spr_playerLW</sprite>
+        <sprite>sprites\spr_playerRW</sprite>
+        <sprite>sprites\spr_playerUW</sprite>
+      </sprites>
+      <sprites name="Gearlock">
+        <sprite>sprites\spr_GearlockDW</sprite>
+        <sprite>sprites\spr_GearlockLW</sprite>
+        <sprite>sprites\spr_GearlockRW</sprite>
+        <sprite>sprites\spr_GearlockUW</sprite>
+      </sprites>
     </sprites>
     <sprites name="Inventory">
       <sprite>sprites\spr_border</sprite>
@@ -66,10 +74,11 @@
     <objects name="Walls">
       <object>objects\obj_wall</object>
       <object>objects\obj_HallWall</object>
-      <object>objects\obj_BedroomWalls</object>
+      <object>objects\obj_BedroomWall</object>
     </objects>
     <objects name="Char">
       <object>objects\obj_player</object>
+      <object>objects\obj_Gearlock</object>
     </objects>
     <objects name="Door">
       <object>objects\obj_door</object>
@@ -92,6 +101,11 @@
     </objects>
     <object>objects\obj_Fade</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_TitleScreen</room>
+    <room>rooms\rm_Hallway</room>
+    <room>rooms\rm_Hub</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_door</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="3" enumb="0">
@@ -28,6 +28,9 @@
             <string>if(place_meeting(x,y,obj_player)){
     if(room_next(room) != -1){
         room += 1;
+    }
+    else {
+        room -= 1;
     }
 }
 </string>
